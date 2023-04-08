@@ -731,8 +731,8 @@ object FormMain: TFormMain
           65061346696C6C524742456666656374315374796C6505436F6C6F7207097846
           4644394439453300000000}
       end>
-    Left = 64
-    Top = 570
+    Left = 48
+    Top = 458
   end
   object LayoutMenuContent: TLayout
     Align = Contents
@@ -1015,7 +1015,7 @@ object FormMain: TFormMain
       item
         MultiResBitmap = <
           item
-            Size = 16
+            Size = 24
           end>
         IconName = 'Item 4'
         SVGText = 
@@ -1053,7 +1053,7 @@ object FormMain: TFormMain
       item
         MultiResBitmap = <
           item
-            Size = 16
+            Size = 24
           end>
         IconName = 'Item 7'
         SVGText = 
@@ -1238,12 +1238,16 @@ object FormMain: TFormMain
         Layers = <
           item
             Name = 'Item 4'
+            SourceRect.Right = 24.000000000000000000
+            SourceRect.Bottom = 24.000000000000000000
           end>
       end
       item
         Layers = <
           item
             Name = 'Item 7'
+            SourceRect.Right = 24.000000000000000000
+            SourceRect.Bottom = 24.000000000000000000
           end>
       end
       item
@@ -1287,12 +1291,9 @@ object FormMain: TFormMain
             SourceRect.Right = 24.000000000000000000
             SourceRect.Bottom = 24.000000000000000000
           end>
-      end
-      item
-        Layers = <>
       end>
     Size = 24
-    Left = 64
-    Top = 634
+    Left = 144
+    Top = 458
   end
 end

@@ -52,7 +52,7 @@ object FramePreview: TFramePreview
           Size.PlatformDefault = False
           Stroke.Kind = None
         end
-        object Button1: TButton
+        object ButtonSave: TButton
           Align = Right
           Images = FormMain.SVGIconImageList
           ImageIndex = 5
@@ -62,8 +62,8 @@ object FramePreview: TFramePreview
           Size.PlatformDefault = False
           StyleLookup = 'buttonstyle_menu'
           TabOrder = 0
-          Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100
-          OnClick = Button1Click
+          Text = 'Download'
+          OnClick = ButtonSaveClick
         end
       end
     end
